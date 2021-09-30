@@ -1,0 +1,74 @@
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.main-header {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.main-footer {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+section {
+  display: table-row;
+}
+
+article {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: table-row;
+  font-size: x-large;
+  line-height: 1.5;
+}
+
+.top-blurb {
+  font-size: large;
+}
+
+img.article-img {
+  width: 20%;
+  padding: 3px;
+  border-style: solid;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  float: inherit;
+}
+
+p.article-p {
+  text-align: left;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  padding: 1rem;
+}
+
+.lefty {
+  float: left;
+  text-align: left;
+}
+
+.righty {
+  float: right;
+  text-align: right;
+}
+
+.section-header {
+  text-align: left;
+  font-size: xx-large
+}
+
+.article-header {
+  text-align: inherit
+}
+
+.alt {
+  text-align: left;
+}
