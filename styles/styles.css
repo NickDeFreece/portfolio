@@ -27,7 +27,8 @@ article {
 }
 
 .top-blurb {
-  font-size: large;
+  font-size: x-large;
+  text-align: center
 }
 
 img.article-img {
@@ -42,6 +43,7 @@ img.article-img {
 
 p.article-p {
   text-align: left;
+  font-size: x-large
 }
 
 aside {
@@ -61,7 +63,7 @@ aside {
 }
 
 .section-header {
-  text-align: left;
+  text-align: center;
   font-size: xx-large
 }
 
