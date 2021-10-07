@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, #2fbdf1, #FFFFFF, #FFFFFF, #FFFFFF, #2fbdf1)
+  background-image: linear-gradient(to right, #2fbdf1, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #2fbdf1)
 }
 main {
   margin-left: 20%;
@@ -17,7 +17,6 @@ main {
   background-position: left, right;
   background-repeat: no-repeat;
 }
-
 nav a {
   text-shadow: 1px 1px 4px hsla(200, 50%, 70%, .7);
   text-decoration-line: none;
@@ -27,9 +26,10 @@ nav a {
   border-width: 2px;
   border-radius: 4px;
 }
-a:hover {
+nav a:hover {
   border-style: groove;
   text-shadow: 2px 2px 4px hsla(200, 70%, 60%, .8);
+  background-color: lightcyan;
 }
 .main-footer {
   margin-left: 20%;
@@ -54,6 +54,10 @@ ul li {
   display: table-row;
 }
 article.top-blurb {
+  font-size: x-large;
+  text-align: center;
+}
+p.top-blurb {
   font-size: x-large;
   text-align: center;
 }
