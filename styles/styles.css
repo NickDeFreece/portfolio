@@ -45,9 +45,26 @@ main {
   font-weight: 200;
 }
 .main-footer {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon-box {
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.footer-info-box {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
 }
 .fa-paw {
   color: #2fbdfa;
