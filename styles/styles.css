@@ -1,10 +1,12 @@
 body {
-  background-image: linear-gradient(to right, #2fbdf1, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #2fbdf1)
+  background-image: linear-gradient(to right, #2fbdf1, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #2fbdf1);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
-main {
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: transparent;
+hr {
+  width: 100%;
+  margin-bottom: 0px;
 }
 .main-header {
   margin-left: 20%;
@@ -13,6 +15,7 @@ main {
   text-align: center;
   color: #2fbdfa;
   font-family: monospace;
+  font-size: large;
   background-origin: border-box;
   background-position: left, right;
   background-repeat: no-repeat;
@@ -31,27 +34,57 @@ nav a:hover {
   text-shadow: 2px 2px 4px hsla(200, 70%, 60%, .8);
   background-color: lightcyan;
 }
-.main-footer {
-  margin-left: 20%;
-  margin-right: 20%;
+main {
+  max-width: 80%;
+  background-color: transparent;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
 }
-section {
-  display: table-row;
+.main-footer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.fa-paw {
+  color: #2fbdfa;
+  font-size: 900%
+}
+.pfix {
+  display: block;
+  max-width: 100rem;
+}
+p {
+  max-width: 100rem;
 }
 article.arty {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  display: table-row;
   font-size: x-large;
   line-height: 1.5;
   text-align: left;
+  width: 100%;
+  display: block;
 }
-ul.project-list {
+.main-section-flex {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 2rem;
+}
+.project-list {
   list-style-type: none;
-  display: table-row;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 0px;
 }
-ul li {
-  display: table-row;
+.project {
+  width: 100%;
+  padding-left: 0px;
 }
 article.top-blurb {
   font-size: x-large;
@@ -77,11 +110,12 @@ img.lefty {
   margin-left: 0px;
   margin-right: 1rem;
 }
-img.righty {
+.righty {
   float: right;
   text-align: right;
   margin-left: 1rem;
   margin-right: 0px;
+  align-self: flex-end;
 }
 .section-header {
   text-align: center;
