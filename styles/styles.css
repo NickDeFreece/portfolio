@@ -198,11 +198,6 @@ img.article-img {
 .main-contact {
   width: 80%;
 }
-@media screen and (max-width: 1400px) {
-  .main-contact {
-    width: 100%;
-  }
-}
 .main-contact section {
   width: min-content;
 }
