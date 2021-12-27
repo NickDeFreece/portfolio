@@ -157,3 +157,56 @@ img.article-img {
 .project:hover, .main-section-flex:hover {
   margin-bottom: 4rem;
 }
+.contact-form {
+  width: 100%;
+}
+.form-fields {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.form-box fieldset {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.form-box fieldset > div {
+  margin: 0 .25rem 0 .25rem;
+}
+.form-box-line {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.left-form {
+  width: min-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.left-form > fieldset:nth-of-type(3) {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.contact-info {
+  width: max-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.right-form {
+  max-width: 70%;
+}
+.main-contact {
+  width: 80%;
+}
+@media screen and (max-width: 1400px) {
+  .main-contact {
+    width: 100%;
+  }
+}
+.main-contact section {
+  width: min-content;
+}
+input[type="submit"] {
+  margin-top: .5rem;
+  padding: .5rem;
+}

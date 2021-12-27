@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <title>Contact Friesland Industries</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/f3d2ed15b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="main-header">
+    <h1>Friesland<br>Industries</h1>
+    <nav>
+      <a href="index.html">About Us</a>
+      <a href="projects.html">Our Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="main-contact">
+    <section class="main-section-flex">
+      <h2>So, you'd like to build a website, eh?</h2>
+      <form name="contact-form" id="contact-form" class="contact-form">
+        <div class="form-fields">
+          <div class="form-box left-form">
+            <fieldset>
+              <legend>Yes! My name is...</legend>
+              <input type="text" name="customerInfoName">
+            </fieldset>
+            <fieldset>
+              <legend>(Optional) I work for...</legend>
+              <input type="text" name="customerInfoOrg">
+            </fieldset>
+            <fieldset>
+              <legend>You can contact me by...</legend>
+              <div class="contact-info contact-checkboxes">
+                <label>
+                  <input type="checkbox" name="customerRSVPPhone" value="phone">
+                  Phone:
+                </label>
+                <label>
+                  <input type="checkbox" name="customerRSVPEmail" value="email">
+                  Email:
+                </label>
+                <label>
+                  <input type="checkbox" name="customerRSVPSocial" value="social">
+                  Social Media:
+                </label>
+                <label>
+                  <input type="checkbox" name="customerRSVPOther" value="other">
+                  Other:
+                </label>
+              </div>
+              <div class="contact-info contact-textboxes">
+                <input type="tel" name="customerInfoPhone">
+                <input type="email" name="customerInfoEmail">
+                <input type="text" name="customerInfoSocial">
+                <input type="text" name="customerInfoOther">
+              </div>
+              <div class="contact-info contact-radios">
+                <label>
+                  <input type="radio" name="customerPrefsRSVP" id="customer-prefs-rsvp-phone" value="rsvp-phone">
+                  Preferred
+                </label>
+                <label>
+                  <input type="radio" name="customerPrefsRSVP" id="customer-prefs-rsvp-email" value="rsvp-email">
+                  Preferred
+                </label>
+                <label>
+                  <input type="radio" name="customerPrefsRSVP" id="customer-prefs-rsvp-social" value="rsvp-social">
+                  Preferred
+                </label>
+                <label>
+                  <input type="radio" name="customerPrefsRSVP" id="customer-prefs-rsvp-other" value="rsvp-other">
+                  Preferred
+                </label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>The type of website I'd call it is...</legend>
+              <select name="customerPrefsSiteType" id="customer-prefs-site-type">
+                <option value="orgFull">Company / Organization Website</option>
+                <option value="profile">Profile Site</option>
+                <option value="blog">Blog / News Site</option>
+                <option value="ref">Reference / Educational Site</option>
+                <option value="commnunity">Community Site (forum, billboard, etc.)</option>
+                <option value="store">eCommerce / Storefront</option>
+                <option value="single">Single Page / Product Info Page</option>
+                <option value="headfoot">Header / Footer Only</option>
+                <option value="other">Other, I'll just desribe to the right...</option>
+              </select>
+            </fieldset>
+          </div>
+          <div class="form-box right-form">
+            <fieldset>
+              <legend>What I really want in my site is...</legend>
+              <textarea name="customerPrefsSiteDescription" rows=25 cols=110></textarea>
+            </fieldset>
+          </div>
+        </div>
+        <input type="submit" name="contactFormSubmit" id="contact-form-submit" value="Send Form - Talk to you soon!">
+      </form>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="footer-icon-box">
+      <i class="fas fa-paw"></i>
+    </div>
+    <div class="footer-info-box">
+      <p>Author: <a href="https://linkedin.com/in/ndefreece">Nick DeFreece</a></p>
+      <p>Email: <a href="mailto:defreece@uw.edu">defreece@uw.edu</a></p>
+      <p>Last Updated <time datetime="2021-10-25">October 25, 2021</time></p>
+      <p>&copy; 2021 Nicholas DeFreece</p>
+    </div>
+  </footer>
+</body>
+</html>
